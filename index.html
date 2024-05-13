@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neurofeminism</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<audio controls autoplay loop>
+  <source src="Taylor Swift - The Man.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="theManAudio" src="Taylor Swift - The Man.mp3" autoplay loop></audio>
+
+<video autoplay muted loop id="myVideo">
+	<source src="Bgvideo.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop id="secondVideo" style="display:none;">
+	<source src="bgvid.mp4" type="video/mp4">
+</video>
+
+<h1 id="greetings">Hello and welcome!</h1>
+<h1 id="greetings2">Let's discover a new perspective on the science of the brain</h1>
+<h2 id="text">Before we begin, what name do you prefer to go by?</h2>
+
+<div class="text" id="inputBox">
+    <input id="nameInput" type="text">
+    <button class="button" onclick="generate()">Submit</button>
+</div>
+
+<div class="text" id="outputBox" style="display: none;">
+    <p id="outputParagraph"></p>
+</div>
+
+<div class="firstq" style="display:none">
+    <p>Q1: Which gender do you think is better at <span style="color:mediumvioletred; font-weight:bold;">Math and Science?</span></p>
+</div>
+
+<div class="firstans" style="display:none;">	
+	<div class="group">
+    	<button class="gender" onclick="firstquestionButton()">Male</button>
+        <button class="gender" onclick="firstquestionButton()">Female</button>
+    </div>
+</div>
+
+<div class="secondq" style="display:none">
+    <p>Q2: Which gender do you think is better at <span style="color:mediumvioletred; font-weight:bold;">Languages and Arts?</span></p>
+</div>
+
+<div class="secondans" style="display:none;">   
+    <div class="group">
+        <button class="gender" onclick="secondquestionButton()">Male</button>
+        <button class="gender" onclick="secondquestionButton()">Female</button>
+    </div>
+</div>
+
+<div class="thirdq" style="display:none">
+    <p>Q3: You are driving and notice someone <span style="color:mediumvioletred; font-weight:bold;">driving poorly.</span><br>Which gender do you think they are?</p>
+</div>
+
+<div class="thirdans" style="display:none;">   
+    <div class="group">
+        <button class="gender" onclick="thirdquestionButton()">Male</button>
+        <button class="gender" onclick="thirdquestionButton()">Female</button>
+    </div>
+</div>
+
+<div class="reflection" style="display:none;">	
+    <button class="findout" onclick="window.location.href='info.html'">Learn more</button>
+</div>
+
+<div class="wrong" style="display:none">
+	<h3>You answered all WRONG</h3>
+</div>
+
+<div class="neither" style="display:none;">
+	<p>The correct answer to all the questions is <span style="color:mediumvioletred; font-weight:bold;">'Neither'</span></p>
+</div>
+
+<div class="question" style="display:none;">    
+    <button class="findout" onclick="window.location.href='info.html'">Learn more</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cantata+One&family=Krona+One&family=Rock+Salt&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body, html {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  height: 2290px;
+  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 28%, #Ffcccc 70%);
+  overflow-x: hidden;
+}
+
+#header {
+  font-family: 'Marcellus', serif;
+  font-size: 58px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px rebeccapurple;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  margin: auto;
+}
+
+.boys {
+  font-family: 'Rock Salt', cursive;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+  position: absolute;
+  top: 1050px;
+  width: 100%;
+  right: 120px;
+}
+
+.girls {
+  font-family: 'Rock Salt', cursive;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px darkred;
+  position: absolute;
+  top: 1180px;
+  width: 100%;
+  right: -50px;
+}
+
+.genderbrain img {
+   display: block;
+   max-width: 32%;
+   height: auto;
+   position: absolute;
+   top: 200px;
+   left: 80px;
+   z-index: -1;
+}
+
+.first {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: center;
+   line-height: 50px;
+   position: absolute;
+   top: 240px;
+   right:150px;
+}
+
+.second {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 550px;
+   left:300px;
+}
+
+.second1 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 630px;
+   left:300px;
+}
+
+.second2 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 750px;
+   left:300px;
+}
+
+.second3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 870px;
+   left:300px;
+}
+
+.video {
+    display: block;
+    position: absolute;
+    top:1400px;
+    left: 30%;
+}
+
+.ending {
+  font-family: 'Marcellus', serif;
+  font-size: 47px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 85px;
+  color: white;
+  text-shadow: 0px 0px 20px powderblue;
+  position: absolute;
+  top: 1850px;
+  width: 100%;
+  margin: auto;
+}
+
+.author {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 2120px;
+  width: 100%;
+  margin: auto;
+}
+
+.reference {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  top: 2150px;
+  width: 160px;
+  height: 60px;
+  right: 150px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+} 
+
+.reference:hover {
+  background-color: lightgrey;
+}
